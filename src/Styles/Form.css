@@ -1,0 +1,57 @@
+.heading {
+  width: 100%;
+  text-align: center;
+  font-family: "Sofia";
+  font-size: 6rem;
+}
+.inputarea {
+  width: 50%;
+  margin: auto;
+  padding: 0 2rem;
+}
+.inputs {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 1.3rem;
+}
+label {
+  font-size: 2.4rem;
+  font-family: "Noto Sans", sans-serif;
+}
+select {
+  font-size: 2.4rem;
+  padding-left: 1rem;
+  border-radius: 0.3rem;
+  width: 30rem;
+  cursor: pointer;
+}
+input {
+  font-size: 2.4rem;
+  padding-left: 1rem;
+  border-radius: 0.3rem;
+  width: 30rem;
+}
+textarea {
+  overflow: auto;
+  font-size: 1.8rem;
+}
+.codearea {
+  width: 52%;
+  margin: 4rem auto;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.codeforyou {
+  font-weight: bold;
+  font-family: "Nunito Sans", sans-serif;
+}
+button {
+  width: 12rem;
+  font-size: 1.6rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 800;
+  padding: 1rem 0;
+  cursor: pointer;
+}

@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&family=Noto+Sans&family=Nunito+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sofia&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  background-color: rgb(242, 253, 253);
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 7px;
+  }
+}
+@media (max-width: 480px) {
+  html {
+    font-size: 4px;
+  }
+}
